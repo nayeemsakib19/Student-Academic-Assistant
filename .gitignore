@@ -1,0 +1,15 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Common editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
